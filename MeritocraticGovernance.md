@@ -111,7 +111,7 @@ For lazy consensus to be effective, it is necessary to allow at least **48 hours
 
 Not all decisions can be made using lazy consensus. Issues such as those affecting the strategic direction or legal standing of the project must gain explicit approval in the form of a vote. Every member of the community is encouraged to express their opinions in all discussion and all votes. However, only project committers and/or PMC members (as defined above) have binding votes for the purposes of decision making. 
 
-A separate document on the voting within a meritocratic governance model describes in more detail how voting is conducted in projects following the practice established within the Apache Software Foundation:  lclcLink
+A separate document on the voting within a meritocratic governance model describes in more detail how voting is conducted in projects following the practice established within the Apache Software Foundation:  [Meritocratic Governance Voting](MeritocraticGovernanceVoting.md)
 
 Creative Commons Attribution-ShareAlike 2.0 England & Wales licence.
  © 2007-2013 University of Oxford, [oss-watch.ac.uk](http://oss-watch.ac.uk/)
