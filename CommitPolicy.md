@@ -21,14 +21,13 @@ These are the general rules for creating and pushing commits to any shared Open-
 
  8. Produce commits which facilitate reviews and contribute to a useful history which can be read, searched, annotated and cherry-picked. In particular:
 
-  - Make atomic commits. That means that each commit should contain
+    - Make atomic commits. That means that each commit should contain
     exactly one self-contained change – do not mix unrelated changes, and
     do not create inconsistent states. Never “hide” unrelated fixes in
     bigger commits. Make coding style fixes only in exactly the lines
     which contain the functional changes, and comment fixes only when
     they relate to the change – the rest is for a separate commit.
- 
-  - Write descriptive commit messages. Make them self-contained, so
+    - Write descriptive commit messages. Make them self-contained, so
     people do not have to research the historical context to make sense
     of them. Conversely, do not put unnecessary trivia into them. Tell
     why you changed something unless it is completely self-evident; this
@@ -36,15 +35,13 @@ These are the general rules for creating and pushing commits to any shared Open-
     description message style and use footers to reference JIRA issues,
     reviewers, etc. and consider the generic Git commit message
     guidelines [http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html].
-     
-  - Commit often. Use git gui and git rebase -i extensively to get your
+    - Commit often. Use git gui and git rebase -i extensively to get your
     unpublished history into shape. Note that pushing to your private
     clone does not count as publishing and is a perfectly valid way to
     solicit an early review or to make a backup of a work in progress.
     Further reading: Understanding the Git Workflow
     [https://sandofsky.com/blog/git-workflow.html]
- 
-  - Avoid unnecessary merges. Use git pull —rebase unless you have an
+    - Avoid unnecessary merges. Use git pull —rebase unless you have an
     unpushed “proper” merge.
 
  9. Do not commit anything you do not understand. “Somehow it suddenly works” is not acceptable. Reverting when a proper fix would be possible is admitting defeat. ;)
