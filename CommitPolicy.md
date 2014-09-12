@@ -55,9 +55,9 @@ These are the general rules for creating and pushing commits to any shared Open-
 
  12. Peer review is strongly encouraged. Do not approve your own changes. Discuss objections. If there is no candidate for a review yet, introduce somebody to the code.
 
-    **Maintainer privilege:** A maintainer may approve his own change to the code he maintains if
-        - at least one review (+1) from somebody else is present, and
-        - nobody else who could approve (+2) the change can be produced within reasonable time
+ **Maintainer privilege:** A maintainer may approve his own change to the code he maintains if
+  - at least one review (+1) from somebody else is present, and
+  - nobody else who could approve (+2) the change can be produced within reasonable time
 
  13. Do not ignore/fight the Early Warning System. Justify each override.
 
