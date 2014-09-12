@@ -4,28 +4,22 @@
 These are the general rules for creating and pushing commits to any shared Open-Transactions repositories. None of these rules is set in stone, but you *will* be subject of public reprimand if you violate them without good reason.
 
  1. If you add new functions/classes:
- - Ensure everything is documented properly.
- - Follow the API Design Principles. Discuss and verify the names of functions/classes with    other OT developers (conduct API reviews).
+    - Ensure everything is documented properly.
+    - Follow the API Design Principles. Discuss and verify the names of functions/classes with other OT developers (conduct API reviews).
 
  2. All code should follow the Coding Conventions.
 
- 3. For GUI code, follow the style guide [lclc link] and avoid
-    internationalization mistakes
-    [https://techbase.kde.org/Development/Tutorials/Localization/i18n_Mistakes].
-  
- 4. Ensure your change compiles and works on all platforms. We will not
-    allow your change to go in if it does not compile.
+ 3. For GUI code, follow the style guide [lclc link] and avoid internationalization mistakes [https://techbase.kde.org/Development/Tutorials/Localization/i18n_Mistakes].
+
+ 4. Ensure your change compiles and works on all platforms. We will not allow your change to go in if it does not compile.
 
  5. Verify that there are no regressions in the unit tests.
 
- 6. Write new unit tests for the bugs you fixed or functionality you
-    added.
+ 6. Write new unit tests for the bugs you fixed or functionality you added.
 
  7. Make your new/changed code follow the coding style [lclc URL].
 
- 8. Produce commits which facilitate reviews and contribute to a useful
-    history which can be read, searched, annotated and cherry-picked. In
-    particular:
+ 8. Produce commits which facilitate reviews and contribute to a useful history which can be read, searched, annotated and cherry-picked. In particular:
 
  - Make atomic commits. That means that each commit should contain
    exactly one self-contained change – do not mix unrelated changes, and
@@ -53,22 +47,21 @@ These are the general rules for creating and pushing commits to any shared Open-
  - Avoid unnecessary merges. Use git pull —rebase unless you have an
    unpushed “proper” merge.
 
-9. Do not commit anything you do not understand. “Somehow it suddenly works” is not acceptable. Reverting when a proper fix would be possible is admitting defeat. ;)
+ 9. Do not commit anything you do not understand. “Somehow it suddenly works” is not acceptable. Reverting when a proper fix would be possible is admitting defeat. ;)
 
-10. Review your changes before you push to Gerrit. git log [—stat] [—summary] [-p] @{u}.. and gitk are your friends.
+ 10. Review your changes before you push to Gerrit. git log [—stat] [—summary] [-p] @{u}.. and gitk are your friends.
 
-11. Make sure you submit against the lowest applicable branch from which a release is still planned. Cherry-picks (“backports”) are frowned upon, while forward-merging to more recent branches happens “automatically” on a regular basis.
+ 11. Make sure you submit against the lowest applicable branch from which a release is still planned. Cherry-picks (“backports”) are frowned upon, while forward-merging to more recent branches happens “automatically” on a regular basis.
 
-12. Peer review is strongly encouraged. Do not approve your own changes. Discuss objections.
-If there is no candidate for a review yet, introduce somebody to the code.
+ 12. Peer review is strongly encouraged. Do not approve your own changes. Discuss objections. If there is no candidate for a review yet, introduce somebody to the code.
 
-**Maintainer privilege:** A maintainer may approve his own change to the code he maintains if
-    - at least one review (+1) from somebody else is present, and
-    - nobody else who could approve (+2) the change can be produced within reasonable time
+    **Maintainer privilege:** A maintainer may approve his own change to the code he maintains if
+        - at least one review (+1) from somebody else is present, and
+        - nobody else who could approve (+2) the change can be produced within reasonable time
 
-13. Do not ignore/fight the Early Warning System. Justify each override.
+ 13. Do not ignore/fight the Early Warning System. Justify each override.
 
-14. And most importantly: use your brain.
+ 14. And most importantly: use your brain.
 
 
 
@@ -81,13 +74,13 @@ If the change is significant and affects many users, compatibility or is a notew
 * If the Git repository contains multiple modules, use the module name to indicate the area of the change e.g. [Core].
 * Optionally specify a class or subtopic [Core][Cheque]
 * Other common tags are:
-** [Trade]
-** [Client]
-** [Important Behavior Changes]
-** [Platform Specific Changes]
-** [Windows]
-** [OS X]
-** [Linux]
+    ** [Trade]
+    ** [Client]
+    ** [Important Behavior Changes]
+    ** [Platform Specific Changes]
+    ** [Windows]
+    ** [OS X]
+    ** [Linux]
 * In summary the entry should look like this:
 
 >  [ChangeLog][module][class/topic] description of the really important
