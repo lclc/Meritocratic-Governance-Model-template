@@ -5,11 +5,9 @@ These are the general rules for creating and pushing commits to any shared Open-
 
  1. If you add new functions/classes:
     - Ensure everything is documented properly.
-    - Follow the API Design Principles. Discuss and verify the names of functions/classes with other OT developers (conduct API reviews).
+    - Discuss and verify the names of functions/classes with other OT developers (conduct API reviews).
 
- 2. All code should follow the Coding Conventions.
-
- 3. For GUI code, follow the style guide [lclc link] and avoid internationalization mistakes [https://techbase.kde.org/Development/Tutorials/Localization/i18n_Mistakes].
+ 2. All code should follow the Coding Conventions [lclc link].
 
  4. Ensure your change compiles and works on all platforms. We will not allow your change to go in if it does not compile.
 
@@ -84,4 +82,4 @@ If the change is significant and affects many users, compatibility or is a notew
 
 
 Content is available under Creative Commons Attribution-ShareAlike 2.5 Generic
-[qt-project.org](http://qt-project.org/wiki/Commit_Policy)
+[qt-project.org](http://qt-project.org)
