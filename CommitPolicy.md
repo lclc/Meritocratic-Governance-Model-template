@@ -20,7 +20,6 @@ These are the general rules for creating and pushing commits to any shared Open-
  7. Make your new/changed code follow the coding style [lclc URL].
 
  8. Produce commits which facilitate reviews and contribute to a useful history which can be read, searched, annotated and cherry-picked. In particular:
-
     - Make atomic commits. That means that each commit should contain
     exactly one self-contained change – do not mix unrelated changes, and
     do not create inconsistent states. Never “hide” unrelated fixes in
