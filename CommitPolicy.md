@@ -9,7 +9,7 @@ These are the general rules for creating and pushing commits to any shared Open-
 
  2. All code should follow the Coding Conventions [lclc link].
 
- 4. Ensure your change compiles and works on all platforms. We will not allow your change to go in if it does not compile.
+ 4. Ensure your change compiles and works on all supported platforms. We will not allow your change to go in if it does not compile.
 
  5. Verify that there are no regressions in the unit tests.
 
@@ -82,4 +82,5 @@ If the change is significant and affects many users, compatibility or is a notew
 
 
 Content is available under Creative Commons Attribution-ShareAlike 2.5 Generic
-[qt-project.org](http://qt-project.org)
+
+Inspired by the [qt-project.org](http://qt-project.org)
