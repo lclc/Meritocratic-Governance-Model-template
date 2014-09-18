@@ -55,7 +55,20 @@ These are the general rules for creating and pushing commits to any shared Open-
 
  13. Do not ignore/fight the Early Warning System. Justify each override.
 
- 14. And most importantly: use your brain.
+
+ 14. Share Early, Share Often
+
+ We firmly believe in the share early, share often approach. The basic premise of the approach is to announce your plans before you start work, and once you have started working, craft your changes into a stream of small and easily reviewable commits.
+ 
+ This approach has several benefits:
+    - Announcing your plans to work on a feature before you begin work avoids duplicate work
+    - It permits discussions which can help you achieve your goals in a way that is consistent with the existing architecture
+    - It minimizes the chances of you spending time and energy on a change that might not fit with the consensus of the community or existing architecture and potentially be rejected as a result
+    - Incremental development helps ensure you are on the right track with regards to the rest of the community
+    - The quicker your changes are merged to master, the less time you will need to spend rebasing and otherwise trying to keep up with the main code base
+
+
+ 15. And most importantly: use your brain.
 
 
 
