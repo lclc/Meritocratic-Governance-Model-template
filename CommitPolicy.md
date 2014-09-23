@@ -43,18 +43,16 @@ These are the general rules for creating and pushing commits to any shared Open-
 
  10. Review your changes before you push to Gerrit. git log [—stat] [—summary] [-p] @{u}.. and gitk are your friends.
 
- 11. Make sure you submit against the lowest applicable branch from which a release is still planned. Cherry-picks (“backports”) are frowned upon, while forward-merging to more recent branches happens “automatically” on a regular basis.
-
- 12. Peer review is strongly encouraged. Do not approve your own changes. Discuss objections. If there is no candidate for a review yet, introduce somebody to the code.
+ 11. Peer review is strongly encouraged. Do not approve your own changes. Discuss objections. If there is no candidate for a review yet, introduce somebody to the code.
 
  **Maintainer privilege:** A maintainer may approve his own change to the code he maintains if
   - at least one review (+1) from somebody else is present, and
   - nobody else who could approve (+2) the change can be produced within reasonable time
 
- 13. Do not ignore/fight the Early Warning System. Justify each override.
+ 12. Do not ignore/fight the Early Warning System. Justify each override.
 
 
- 14. Share Early, Share Often
+ 13. Share Early, Share Often
 
  We firmly believe in the share early, share often approach. The basic premise of the approach is to announce your plans before you start work, and once you have started working, craft your changes into a stream of small and easily reviewable commits.
  
@@ -66,7 +64,7 @@ These are the general rules for creating and pushing commits to any shared Open-
     - The quicker your changes are merged to master, the less time you will need to spend rebasing and otherwise trying to keep up with the main code base
 
 
- 15. And most importantly: use your brain.
+ 14. And most importantly: use your brain.
 
 
 
