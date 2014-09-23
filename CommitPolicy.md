@@ -74,7 +74,7 @@ These are the general rules for creating and pushing commits to any shared Open-
 **Change Log**
 ----------
 
-If the change is significant and affects many users, compatibility or is a noteworthy feature, you must add a ChangeLog tag.
+If the change is significant and affects many users, compatibility or is a noteworthy feature, you must add a ChangeLog tag. This ChangeLog note has to be at the end of the commit message.
 * A [ChangeLog] entry can be multiple lines long and ends with an empty newline.
 * If the Git repository contains multiple modules, use the module name to indicate the area of the change e.g. [Core].
 * Optionally specify a class or subtopic [Core][Cheque]
