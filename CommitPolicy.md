@@ -28,10 +28,8 @@ These are the general rules for creating and pushing commits to any shared Open-
     people do not have to research the historical context to make sense
     of them. Conversely, do not put unnecessary trivia into them. Tell
     why you changed something unless it is completely self-evident; this
-    is particularly important for reverts. Follow the summary +
-    description message style and use footers to reference JIRA issues,
-    reviewers, etc. and consider the generic Git commit message
-    guidelines [http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html].
+    is particularly important for reverts. Follow this summary +
+    description message style: [http://denx.de/wiki/view/U-Boot/Patches#Commit_message_conventions].
     - Commit often. Use git gui and git rebase -i extensively to get your
     unpublished history into shape. Note that pushing to your private
     clone does not count as publishing and is a perfectly valid way to
