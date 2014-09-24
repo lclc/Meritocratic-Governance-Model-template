@@ -1,6 +1,8 @@
 **Commit Policy**
 =================
 
+**NOT YET VOTED ON / PUT IN PLACE**
+
 These are the general rules for creating and pushing commits to any shared Open-Transactions repositories. None of these rules is set in stone, but you *will* be subject of public reprimand if you violate them without good reason.
 
  1. If you add new functions/classes:
