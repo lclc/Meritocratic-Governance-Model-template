@@ -3,11 +3,11 @@
 
 **NOT YET VOTED ON / PUT IN PLACE**
 
-These are the general rules for creating and pushing commits to any shared Open-Transactions repositories. None of these rules is set in stone, but you *will* be subject of public reprimand if you violate them without good reason.
+These are the general rules for creating and pushing commits to any shared $PROJECT_NAME$ repositories. None of these rules is set in stone, but you *will* be subject of public reprimand if you violate them without good reason.
 
  1. If you add new functions/classes:
     - Ensure everything is documented properly.
-    - Discuss and verify the names of functions/classes with other OT developers (conduct API reviews).
+    - Discuss and verify the names of functions/classes with other developers (conduct API reviews).
 
  2. All code should follow the Coding Conventions [lclc link].
 
@@ -77,10 +77,8 @@ These are the general rules for creating and pushing commits to any shared Open-
 If the change is significant and affects many users, compatibility or is a noteworthy feature, you must add a ChangeLog tag. This ChangeLog note has to be at the end of the commit message.
 * A [ChangeLog] entry can be multiple lines long and ends with an empty newline.
 * If the Git repository contains multiple modules, use the module name to indicate the area of the change e.g. [Core].
-* Optionally specify a class or subtopic [Core][Cheque]
+* Optionally specify a class or subtopic [Linux][Core]
 * Other common tags are:
-    * [Trade]
-    * [Client]
     * [Important Behavior Changes]
     * [Platform Specific Changes]
     * [Windows]
