@@ -99,7 +99,7 @@ In general, as long as nobody explicitly opposes a proposal or patch, it is reco
 
 Lazy consensus is a very important concept within the project. It is this process that allows a large group of people to efficiently reach consensus, as someone with no objections to a proposal need not spend time stating their position, and others need not spend time reading such mails.
 
-For lazy consensus to be effective, it is necessary to allow at least **24 hours** before assuming that there are no objections to the proposal. This requirement ensures that everyone is given enough time to read, digest and respond to the proposal.
+For lazy consensus to be effective, it is necessary to allow at least **$LAZY_CONSENSUE_VOTING_WAIT_TIME$ hours** before assuming that there are no objections to the proposal. This requirement ensures that everyone is given enough time to read, digest and respond to the proposal.
 
 **Voting**
 
